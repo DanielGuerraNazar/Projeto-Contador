@@ -41,7 +41,7 @@ void loop()
 		lcd.print("* ");
 	}
 
-	delay(3000);
+	delay(10000);
 
 	lcd.clear();
 	lcd.print("Quantas bolinhas?");
