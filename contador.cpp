@@ -859,7 +859,7 @@ void loop()
 	// Salva as estatísticas atualizadas na memória flash
 	preferences.putInt("highScore", highScore);
 	preferences.putInt("totalPartidas", totalPartidas);
-	preferences.putInt("totalAcertos", totalAcertos);
+	preferences.putInt(" totalAcertos", totalAcertos);
 	preferences.putInt("nivelMaximo", nivelMaximo);
 	preferences.putFloat("tempoSomaReacao", tempoSomaReacao);
 	
