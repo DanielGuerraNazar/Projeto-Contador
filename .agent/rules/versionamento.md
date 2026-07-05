@@ -17,7 +17,14 @@ Sempre que o usuário disser o comando **"Agente, suba a nova versão"**, adote 
    - Faça uma análise rápida dos arquivos modificados no workspace (`git diff`).
    - Monte um resumo ultra-conciso (em apenas uma linha entre parênteses) com as principais modificações que foram feitas no código.
 
-5. **Executar os comandos do Git**:
+5. **Atualizar o CHANGELOG.md**:
+   - Adicione no topo do arquivo `info/CHANGELOG.md` a nova versão, a data e a lista em tópicos das principais alterações realizadas.
+   - Exemplo de formato:
+     `## vX.0 - DD-MM-AAAA`
+     `- Descrição da alteração 1`
+     `- Descrição da alteração 2`
+
+6. **Executar os comandos do Git**:
    - Execute `git add .` para incluir todas as alterações pendentes.
    - Faça o commit usando exatamente o padrão:
      `[Versão X.0] - DD-MM-AAAA (Resumo conciso das alterações feito pela IA)`
