@@ -70,7 +70,7 @@ void nonBlockingDelay(unsigned long ms) {
   unsigned long start = millis();
   while (millis() - start < ms) {
     server.handleClient();
-    delay(1);
+    delay(2);
   }
 }
 
