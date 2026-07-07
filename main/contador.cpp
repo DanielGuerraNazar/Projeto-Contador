@@ -59,7 +59,7 @@ struct RegistroPartida {
   bool timeout;
 };
 
-const int MAX_HISTORICO = 10;
+const int MAX_HISTORICO = 11;
 RegistroPartida historicoPartidas[MAX_HISTORICO];
 int historicoCount = 0;
 

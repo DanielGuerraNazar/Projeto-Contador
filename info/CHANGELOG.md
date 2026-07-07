@@ -1,3 +1,6 @@
+## v11.0 - 07-07-2026
+- Atualização do limite MAX_HISTORICO para 11 no arquivo contador.cpp
+
 ## v10.0 - 2026-07-05
 - Adição da nova apresentação comercial/arquitetura no formato PPTX (info/Apresentacao_v9.pptx)
 - Extração de arquivo isolado para pré-visualização do Front-End (main/preview.html) sem depender do hardware físico
